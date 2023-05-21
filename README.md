@@ -89,7 +89,7 @@ The recurrence will start after n=3 days based on the `repetitionBaseDate` retur
 
 #### 3. Weekly Recurrence
 
-This will help ypi create weekly recurrence rule for the model.
+This will help you create weekly recurrence rule for the model.
 
 ```php
 $model->repeat()->weekly()
@@ -143,7 +143,7 @@ Task::whereOccurresOn(Carbon::make('2023-05-01'))->get()
 use `whereOccurresBetween` scope to get the models that occurres between two sepcific dates.
 
 ```
-Task::whereOccurresBetweeb(Carbon::make('2023-05-01'), Carbon::make('2023-05-30'))->get()
+Task::whereOccurresBetween(Carbon::make('2023-05-01'), Carbon::make('2023-05-30'))->get()
 ```
 
 #### 1. End Recurrance
